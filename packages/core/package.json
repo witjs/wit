@@ -1,0 +1,14 @@
+{
+  "name": "@witjs/core",
+  "version": "0.0.2",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:witjs/wit.git"
+  },
+  "scripts": {
+    "prerelease": "yarn version --patch",
+    "release": "yarn publish --access public"
+  },
+  "author": "witjs",
+  "license": "MIT"
+}

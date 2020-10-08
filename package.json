@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "name": "witjs",
+  "workspaces": [
+    "packages/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:witjs/wit.git"
+  },
+  "scripts": {
+    "release": "yarn workspaces run release"
+  },
+  "author": "witjs",
+  "license": "MIT",
+  "version": "0.0.2"
+}
